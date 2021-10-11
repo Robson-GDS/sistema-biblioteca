@@ -1,8 +1,12 @@
-import firebase from './services/firebaseConnection';
+import { BrowserRouter } from 'react-router-dom';
+
+import Routes from './routes';
 
 function App() {
   return (
-    <h1>teste</h1>
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
   );
 }
 
